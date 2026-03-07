@@ -1,11 +1,11 @@
 import css from './Layout.module.css'
 
-const Layout = () => {
+const Layout = ({children}) => {
   return (
-    <div className={css.layout}>
-      My best Layout
+    <div className={`${css.layout} container`}>
+      {children}
     </div>
   )
 }
 
-export default Layout
+export default Layout;
