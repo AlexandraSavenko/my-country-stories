@@ -1,19 +1,14 @@
 import css from './LessonVideo.module.css'
-import { useParams } from 'react-router-dom'
-import { lessonsData } from '../../data'
 
-const LessontVideo = () => {
-  const {lessonId} = useParams()
-  const lesson = lessonsData.find(l => l.id === lessonId)
-  console.log(lesson.video)
+const LessonVideo = ({idList}) => {
   return (
     <ul className={css.videoBox}>
-      {lesson.video.map((el, index) => <li key={index}>
+      {idList.map((id) => <li key={id}>
         <iframe
         id="video"
-        width="800"
+        width="100%"
         height="600"
-        src={`https://www.youtube.com/embed/${el.url}`}
+        src={`https://www.youtube.com/embed/${id.url}`}
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboardWrite; encryptedMedia; gyroscope; pictureInPicture; webShare"
@@ -26,4 +21,4 @@ const LessontVideo = () => {
   )
 }
 
-export default LessontVideo
+export default LessonVideo

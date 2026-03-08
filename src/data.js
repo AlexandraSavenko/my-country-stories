@@ -78,73 +78,73 @@ export const lessonsData = [
   {
     id: "lesson1",
     title: "Історія 1. Коли України ще не було, а люди —вже були",
-    video: [{ url: "99FCb_9ls4Q" }],
+    tasks: {video: [{ url: "99FCb_9ls4Q" }],
     games: [
       { url: "https://learningapps.org/watch?v=pydux4zy326" },
       { url: "https://learningapps.org/watch?v=pu831bf0c26" },
-    ],
+    ],}
   },
   {
     id: "lesson2",
     title: "Історія 2. Трипільці — перші хлібороби нашої землі",
-    video: [{ url: "c6LlGuy-7p0" }],
+    tasks: {video: [{ url: "c6LlGuy-7p0" }],
     games: [
       { url: "https://learningapps.org/watch?v=pwb5hbf5k26" },
       { url: "https://learningapps.org/watch?v=pkx4xn4ck26" },
     ],
-    googleTest: "https://forms.gle/QqRCWZXcAUGSh7Rc9",
+    googleTest: "https://forms.gle/QqRCWZXcAUGSh7Rc9",}
   },
   {
     id: "lesson3",
     title: "Історія 3. Люди, які жили в русі: кіммерійці, скіфи, сармати.",
-    video: [{ url: "77E0FRkKQT4" }],
+    tasks: {video: [{ url: "77E0FRkKQT4" }],
     games: [
       { url: "https://learningapps.org/watch?v=pwb5hbf5k26" },
       { url: "https://learningapps.org/watch?v=pkx4xn4ck26" },
     ],
-    googleTest: "https://forms.gle/QqRCWZXcAUGSh7Rc9",
+    googleTest: "https://forms.gle/QqRCWZXcAUGSh7Rc9",}
   },
   {
     id: "lesson4",
     title: "Історія 4. Скіфи – народ на колесах.",
-    video: [{ url: "si=-pye4rp-p4LDZorL" }],
+    tasks: {video: [{ url: "si=-pye4rp-p4LDZorL" }],
     games: [{ url: "https://learningapps.org/watch?v=psjdf1nhc26" }],
-    googleTest: "https://forms.gle/2mjDC4fAQRZ2bMme8",
+    googleTest: "https://forms.gle/2mjDC4fAQRZ2bMme8",}
   },
   {
     id: "lesson5",
     title: "Історія 5. Сармати.",
-    video: [{ url: "v=UYbR4pefe7k" }, { url: "si=_6o1fPNAHgGDmcDP" }],
-    googleTest: "https://forms.gle/nRGWsyPb9uiKJ4ReA",
+    tasks: {video: [{ url: "v=UYbR4pefe7k" }, { url: "si=_6o1fPNAHgGDmcDP" }],
+    googleTest: "https://forms.gle/nRGWsyPb9uiKJ4ReA",}
   },
   {
     id: "lesson6",
     title: "Історія 6. Грецькі міста на березі Чорного моря.",
-    video: [{ url: "IcX_MCMunZI" }],
+   tasks: { video: [{ url: "IcX_MCMunZI" }],
     games: [{ url: "https://learningapps.org/watch?v=pugj3agq326" }],
-    googleTest: "https://forms.gle/NLofRtoQRK1PKpmS9",
+    googleTest: "https://forms.gle/NLofRtoQRK1PKpmS9",}
   },
   {
     id: "lesson7",
     title: "Історія 7. Слов’яни — прадавні жителі нашої землі.",
-    video: [
+    tasks: {video: [
       { url: "v=pn6akii0a26" },
       { url: "Dg0aJKtT5-E" },
       { url: "np7LB5G79ng" },
       { url: "ARgro41DTyM" },
     ],
-    googleTest: "https://forms.gle/RzjYGpiLVRu9Kh9V9",
+    googleTest: "https://forms.gle/RzjYGpiLVRu9Kh9V9",}
   },
   {
     id: "lesson8",
     title: "Історія 8. Частина 1. Київська держава.",
-    video: [{ url: "wi7qiLbjjCw" }],
-    games: [{ url: "https://learningapps.org/watch?v=pi706t3y326" }],
+    tasks: {video: [{ url: "wi7qiLbjjCw" }],
+    games: [{ url: "https://learningapps.org/watch?v=pi706t3y326" }],}
   },
   {
     id: "lesson9",
     title: "Історія 8. Частина 2. Київська держава",
-    video: [
+    tasks: {video: [
       { url: "vYnoTsvjvXg" },
       { url: "UON1pnEPp-A" },
       { url: "UON1pnEPp-A" },
@@ -152,40 +152,40 @@ export const lessonsData = [
       { url: "5pE47YDrNNE" },
     ],
     games: [{ url: "https://learningapps.org/watch?v=p71nfozak26" }],
-    googleTest: "https://forms.gle/UDbQusjMcYRF1itr7",
+    googleTest: "https://forms.gle/UDbQusjMcYRF1itr7",}
   },
   {
     id: "lesson10",
     title: "Історія 9. Монголо-татарська навала.",
-    video: [{ url: "FaKWdsPSRgk" }],
-    googleTest: "https://forms.gle/p9Zh4yUuuxQcLp6j6",
+    tasks: {video: [{ url: "FaKWdsPSRgk" }],
+    googleTest: "https://forms.gle/p9Zh4yUuuxQcLp6j6",}
   },
   {
     id: "lesson11",
     title: "Історія 10. Українські землі у складі Речі Посполитої.",
-    googleTest: "https://forms.gle/BKjdekiyq9GNJqn39",
+    tasks: {googleTest: "https://forms.gle/BKjdekiyq9GNJqn39",}
   },
   {
     id: "lesson12",
     title: "Історія 11. Частина 1. Козацька доба.",
-    video: [
+    tasks: {video: [
       { url: "UF8S-OmcgXw" },
       { url: "zNVlwSo6mmc" },
       { url: "1OTbO_mEsUA" },
       { url: "1Pp3GecE888" },
     ],
     games: [{ url: "https://learningapps.org/watch?v=ppk9u3e0j26" }],
-    googleTest: "https://forms.gle/tkHNbb5VmN613Yuc8",
+    googleTest: "https://forms.gle/tkHNbb5VmN613Yuc8",}
   },
   {
     id: "lesson13",
     title: "Історія 11. Частина 2. Козацька доба.",
-    video: [
+   tasks: { video: [
       { url: "CxMOCuGNq9g" },
       { url: "ydTYeml86Qc" },
       { url: "xpNg0i37yxs" },
     ],
     games: [{ url: "https://learningapps.org/watch?v=p9ranxmjc26" }],
-    googleTest: "https://forms.gle/m9QsRz1dDPf7WPpZ8",
+    googleTest: "https://forms.gle/m9QsRz1dDPf7WPpZ8",}
   },
 ];

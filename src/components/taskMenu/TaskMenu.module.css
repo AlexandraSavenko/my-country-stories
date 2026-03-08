@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.navLink {
+  padding: 8px 14px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--text-primary);
+  background: var(--bg-main);
+  border: 1px solid var(--border);
+  transition: all 0.2s ease;
+}
+
+.navLink:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}

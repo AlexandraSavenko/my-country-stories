@@ -1,24 +1,21 @@
-import css from './LessonGames.module.css'
-import { useParams } from 'react-router-dom'
-import { lessonsData } from '../../data'
+import css from "./LessonGames.module.css";
 
-const LessonGames = () => {
-  const {lessonId} = useParams()
-  const lesson = lessonsData.find(l => l.id === lessonId)
-  console.log(lesson.video)
+const LessonGames = ({ list }) => {
   return (
     <ul className={css.videoBox}>
-      {lesson.games.map((el, index) => <li key={index}>
-        <iframe
-       src={el.url}
-              style={{ border: "0px", width: "100%", height: "500px" }}
-              allowfullscreen="true"
-              webkitallowfullscreen="true"
-              mozallowfullscreen="true"
-      ></iframe>
-      </li> )}
-      
-    </ul>)
-}
+      {list.map((el, index) => (
+        <li key={index}>
+          <iframe
+            src={el.url}
+            style={{ border: "0px", width: "100%", height: "500px" }}
+            allowfullscreen="true"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+          ></iframe>
+        </li>
+      ))}
+    </ul>
+  );
+};
 
-export default LessonGames
+export default LessonGames;
