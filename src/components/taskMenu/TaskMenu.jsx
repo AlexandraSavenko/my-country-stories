@@ -11,7 +11,7 @@ const TaskMenu = () => {
       <NavLink className={({isActive}) => (`${isActive ? css.active : ""} ${css.navLink}`)} to={"questions"} >Завдання</NavLink>
         {taskList.map((el) => (
           <NavLink className={({isActive}) => (`${isActive ? css.active : ""} ${css.navLink}`)} to={el[0]} key={el[0]}>
-            {el[0]}
+            {el[0] === "map" ? "Карта" : el[0] === "googleTest" ? "Тест" : el[0] === "video" ? "Відео" : "Ігри"}
           </NavLink>
         ))}
       </nav>

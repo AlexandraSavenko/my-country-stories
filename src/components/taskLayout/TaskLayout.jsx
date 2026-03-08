@@ -20,6 +20,9 @@ const TaskLayout = () => {
       {taskId === "googleTest" && (
        <PdfItem url={task}/>
       )}
+      {taskId === "map" && (
+        <img src={`/maps/${lessonId}M.JPG`} alt="map-task" />
+      )}
     </div>
   );
 };

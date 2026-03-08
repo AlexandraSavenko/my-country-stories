@@ -11,7 +11,7 @@ const LessonVideo = ({idList}) => {
         src={`https://www.youtube.com/embed/${id.url}`}
         title="YouTube video player"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboardWrite; encryptedMedia; gyroscope; pictureInPicture; webShare"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strictOriginWhenCrossOrigin"
         allowfullscreen
       ></iframe>
