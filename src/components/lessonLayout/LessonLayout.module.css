@@ -1,7 +1,7 @@
 .lessonLayout {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  height: 100vh;
+  height: calc(100vh - 70px) ;
   background: var(--bg-main);
   gap: 24px;
   padding: 24px;
@@ -22,7 +22,7 @@
   border: none;
   border-radius: 10px;
 }
-.taskContent {
+.taskBox {
   background: var(--bg-surface);
   border-radius: 14px;
   border: 1px solid var(--border);
@@ -32,8 +32,9 @@
   flex-direction: column;
   gap: 20px;
   overflow-y: auto;
+  height: 100%;
 }
-.taskContent > div {
+.taskBox > div {
   border-top: 1px solid var(--border);
   padding-top: 16px;
 }

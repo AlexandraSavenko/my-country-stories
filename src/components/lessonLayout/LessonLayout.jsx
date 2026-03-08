@@ -1,3 +1,4 @@
+import PdfItem from "../pdfItem/PdfItem";
 import TaskMenu from "../taskMenu/TaskMenu";
 import css from "./LessonLayout.module.css";
 import { Outlet, useParams } from "react-router-dom";
@@ -7,9 +8,10 @@ const LessonLayout = () => {
   return (
     <div className={css.lessonLayout}>
       <div className={css.lessonWrap}>
-        <iframe src={`/pdfs/${lessonId}.pdf`} width="60%" height="800"></iframe>
+        <PdfItem url={`/pdfs/${lessonId}.pdf`}/>
+        {/* <iframe src={`/pdfs/${lessonId}.pdf`} width="60%" height="300"></iframe> */}
       </div>
-      <div className={css.taskContent}>
+      <div className={css.taskBox}>
         <TaskMenu/>
         <Outlet />
       </div>
