@@ -107,10 +107,9 @@ export const lessonsData = [
       video: [{ url: "77E0FRkKQT4" }],
       map: true,
       games: [
-        { url: "https://learningapps.org/watch?v=pwb5hbf5k26" },
-        { url: "https://learningapps.org/watch?v=pkx4xn4ck26" },
+        { url: "https://learningapps.org/watch?v=pvaydtqmj26" },
       ],
-      googleTest: "https://forms.gle/QqRCWZXcAUGSh7Rc9",
+      googleTest: "https://forms.gle/QydoYgvoktUbrzei6",
     },
   },
   {
@@ -128,7 +127,6 @@ export const lessonsData = [
     title: "Історія 5. Сармати.",
     tasks: {
       video: [{ url: "UYbR4pefe7k" }, { url: "qp-1-IbVpOw" }],
-      map: true,
       googleTest: "https://forms.gle/nRGWsyPb9uiKJ4ReA",
     },
   },
@@ -152,7 +150,6 @@ export const lessonsData = [
         { url: "ARgro41DTyM" },
       ],
       games: [{url: "https://learningapps.org/watch?v=pn6akii0a26"}],
-      map: false,
       googleTest: "https://forms.gle/RzjYGpiLVRu9Kh9V9",
     },
   },
@@ -161,7 +158,7 @@ export const lessonsData = [
     title: "Історія 8. Частина 1. Київська держава.",
     tasks: {
       video: [{ url: "wi7qiLbjjCw" }, { url: "QBpcLnVx56I" }],
-      map: false,
+      map: true,
       games: [{ url: "https://learningapps.org/watch?v=pi706t3y326" }],
     },
   },
@@ -172,11 +169,10 @@ export const lessonsData = [
       video: [
         { url: "vYnoTsvjvXg" },
         { url: "UON1pnEPp-A" },
-        { url: "UON1pnEPp-A" },
+        { url: "vYnoTsvjvXg" },
         { url: "X0aO6aOp450" },
         { url: "5pE47YDrNNE" },
       ],
-      map: true,
       games: [{ url: "https://learningapps.org/watch?v=p71nfozak26" }],
       googleTest: "https://forms.gle/UDbQusjMcYRF1itr7",
     },
@@ -186,7 +182,7 @@ export const lessonsData = [
     title: "Історія 9. Монголо-татарська навала.",
     tasks: {
       video: [{ url: "FaKWdsPSRgk" }],
-      map: false,
+      map: true,
       googleTest: "https://forms.gle/p9Zh4yUuuxQcLp6j6",
     },
   },
@@ -219,7 +215,7 @@ export const lessonsData = [
         { url: "ydTYeml86Qc" },
         { url: "xpNg0i37yxs" },
       ],
-      map: false,
+      map: true,
       games: [{ url: "https://learningapps.org/watch?v=p9ranxmjc26" }],
       googleTest: "https://forms.gle/m9QsRz1dDPf7WPpZ8",
     },
